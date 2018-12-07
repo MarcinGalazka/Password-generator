@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Share Tech', sans-serif;
+}
+
+div.generator {
+    background-color: lightblue;
+    width: 50%;
+    padding: 15px;
+    margin: 30px auto;
+    min-height: 43vh;
+    text-align: center;
+    border: 2px solid gray;
+}
+
+div.generator div {
+    /* background-color: #fff; */
+    overflow: auto;
+}
+
+button {
+    display: block;
+    margin: 0 auto 0 auto;
+    height: 36px;
+    width: 180px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+span {
+    margin-top: 10px;
+    font-size: 24px;
+    display: block;
+}
+
+input {
+    margin: 10px 0px;
+    width: 60px;
+    height: 24px;
+    text-align: center;
+}
+
+.newPassword {
+    font-size: 30px;
+}
+
+@media ( max-width: 770px) {
+    div.generator {
+        width: 60%;
+        margin: 30px auto;
+        min-height: 30vh;
+    }
+    @media ( max-width: 420px) {
+        div.generator {
+            width: 90%;
+            margin: 30px auto;
+            min-height: 43vh;
+        }
+        button {
+            width: 130px;
+            font-size: 20px;
+        }
+    }
